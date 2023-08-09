@@ -770,6 +770,11 @@
       "description": "The command name.",
       "type": "string_t"
     },
+    "command_name": {
+      "caption": "Command Name",
+      "description": "The running process command.",
+      "type": "string_t"
+    },
     "command_response": {
       "caption": "Command Response",
       "description": "The response to the command.",
@@ -779,6 +784,11 @@
       "caption": "Command Responses",
       "description": "The responses to the command.",
       "is_array": true,
+      "type": "string_t"
+    },
+    "command_uid": {
+      "caption": "Command UID",
+      "description": "The unique command identifier.",
       "type": "string_t"
     },
     "comment": {
