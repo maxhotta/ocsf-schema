@@ -772,7 +772,7 @@
     },
     "command_name": {
       "caption": "Command Name",
-      "description": "The running process command.",
+      "description": "The name of the command that pertains to the event.",
       "type": "string_t"
     },
     "command_response": {
