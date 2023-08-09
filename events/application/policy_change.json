@@ -1,0 +1,26 @@
+{
+  "caption": "Policy Change",
+  "description": "Policy change events report when the endpoint applies a new policy.",
+  "extends": "application",
+  "name": "policy_change",
+  "uid": 6,
+  "attributes": {
+    "activity_id": {
+      "enum": {
+        "1": {
+          "caption": "Location Update",
+          "description": "The policy update activity is in response to a location change."
+        },
+        "2": {
+          "caption": "Policy Update",
+          "description": "The policy update activity is in response to a corresponding policy change."
+        }
+      }
+    },
+    "policy": {
+      "description": "The policy that pertains to the event.",
+      "group": "primary",
+      "requirement": "required"
+    }
+  }
+}
