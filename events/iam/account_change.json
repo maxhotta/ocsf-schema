@@ -33,15 +33,23 @@
         },
         "7": {
           "caption": "Attach Policy",
-          "description": "A user/role was changed."
+          "description": "An IAM Policy was attached to a user/role."
         },
         "8": {
           "caption": "Detach Policy",
-          "description": "A user/role was changed."
+          "description": "An IAM Policy was detached from a user/role."
         },
         "9": {
           "caption": "Lock",
           "description": "A user account was locked out."
+        },
+        "10": {
+          "caption": "MFA Factor Enable",
+          "description": "An authentication factor was enabled for an account."
+        },
+        "11": {
+          "caption": "MFA Factor Disable",
+          "description": "An authentication factor was disabled for an account."
         }
       }
     },
@@ -52,6 +60,11 @@
     },
     "http_request": {
       "description": "Details about the underlying http request.",
+      "group": "context",
+      "requirement": "optional"
+    },
+    "policy": {
+      "description": "Details about the IAM policy associated to the Attach/Detach Policy activities.",
       "group": "context",
       "requirement": "optional"
     },
